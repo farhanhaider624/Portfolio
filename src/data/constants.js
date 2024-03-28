@@ -152,7 +152,7 @@ export const education = [
     img: IIITA,
     school: "Indian Institute of Information Technology, Allahabad",
     date: "July 2021 - Jun 2025",
-    grade: "7.71 CGPA (till 5th semester)",
+    grade: "7.61 CGPA (till 5th semester)",
     desc: "I am currently pursuing a Bachelor's degree in Electronics & Commuincation Engineering at Indian Institute of Information Technology, Allahabad. I have completed 5 semesters and have a CGPA of 7.61. I have taken courses in Data Structures, Algorithms, Operating Systems, and Computer Networks, among others.",
     degree:
       "Bachelor of Technology - BTech, Electronics & Commuincation Engineering",
