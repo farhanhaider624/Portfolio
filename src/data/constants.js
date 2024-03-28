@@ -6,6 +6,9 @@ import NEZAMIA from "../images/NEZAMIA.png";
 import blender from "../images/blender.svg";
 import todoApp from "../images/todoApp.png";
 import weatherApp from "../images/weatherApp.png";
+import complaintSystem from "../images/complaintSystem.png";
+import resumeBuilder from "../images/resumeBuilder.png";
+import portfolio from "../images/portfolio.png";
 
 export const Bio = {
   name: "Farhan Haider",
@@ -14,7 +17,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/farhanhaider624",
   resume:
-    "https://drive.google.com/file/d/12Pk6V9BXczyIZvIWY9Jv4Ei0b1uk39KQ/view?usp=sharing",
+    "https://drive.google.com/file/d/1GPXYejwFJleheVPPxai6IAkcqnmc0c7a/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/farhan-haider-1268a222a/",
   insta: "https://www.instagram.com/its.fhk/",
   facebook:
@@ -177,8 +180,44 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Weather App",
+    title: "Complaint System",
     date: "Dec 2023",
+    description:
+      "It is a web application for complaining about the issues with related to the respective college departments.",
+    image: complaintSystem,
+    tags: ["React Js", "Node Js", "Express Js", "HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/farhanhaider624/complaint-system",
+    webapp: "https://web-prog-proj.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Resume Builder",
+    date: "March 2024",
+    description:
+      "It is a web application for complaining about the issues with related to the respective college departments.",
+    image: resumeBuilder,
+    tags: ["React Js", "HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/farhanhaider624/Resume-Builder",
+    webapp: "https://resume-builder1.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "Portfolio Website",
+    date: "Feb 2024",
+    description:
+      "A portfolio website where built using React Js and javascript to showcase my about me, skills, qualifications, projects and experiences.",
+    image: portfolio,
+    tags: ["React Js", "HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/farhanhaider624/Portfolio",
+    webapp: "https://my-portfolio-fhde.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Weather App",
+    date: " 2023",
     description:
       "It is a web application for getting the real time data of weather including temperature along with humidity and wind speed of a particular location.",
     image: weatherApp,
@@ -188,11 +227,11 @@ export const projects = [
     webapp: "https://weather-app3-pgtd.onrender.com/",
   },
   {
-    id: 1,
+    id: 4,
     title: "Todo Web App",
     date: "Jan 2024",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      " A Simple Todo Web App made with React JS. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image: todoApp,
     tags: [
       "React Js",

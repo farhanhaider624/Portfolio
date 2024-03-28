@@ -114,21 +114,31 @@ const Projects = () => {
               ALL
             </ToggleButton>
           ) : (
-            <ToggleButton value="all" onClick={() => setToggle("all")}>ALL</ToggleButton>
+            <ToggleButton value="all" onClick={() => setToggle("all")}>
+              ALL
+            </ToggleButton>
           )}
           <Divider />
-          {toggle==="web app"?(
-              <ToggleButton active onClick={()=>setToggle("web app")}>WEB APP'S</ToggleButton>
-              ):(
-              <ToggleButton onClick={()=>setToggle("web app")}>WEB APP'S</ToggleButton>
+          {toggle === "web app" ? (
+            <ToggleButton active onClick={() => setToggle("web app")}>
+              WEB APP'S
+            </ToggleButton>
+          ) : (
+            <ToggleButton onClick={() => setToggle("web app")}>
+              WEB APP'S
+            </ToggleButton>
           )}
         </ToggleGroup>
         <CardContainer>
-            {toggle==="all" && projects.map((project)=> <Projectcard project={project}/>)}
-            {projects
-                .filter((item)=>item.category===toggle)
-                .map((project)=> (<Projectcard project={project}/>))
-            }
+          {toggle === "all" &&
+            projects.map((project, index) => (
+                <Projectcard project={project} />
+            ))}
+          {projects
+            .filter((item) => item.category === toggle)
+            .map((project, index) => (
+                <Projectcard project={project} />
+            ))}
         </CardContainer>
       </Wrapper>
     </Container>

@@ -15,6 +15,7 @@ const Card=styled.a`
   display: flex;
   flex-direction:column;
   gap:14px;
+  text-decoration:none;
   // transition: all 0.5s ease-in-out;
   &:hover{
     transform:translateY(-10px);
@@ -111,7 +112,7 @@ const Avatar=styled.img`
 
 const Projectcard = ({project}) => {
   return (
-    <Card>
+    <Card href={project.github} target="_blank">
       <Image src={project.image}/>
       <Tags>
         {project.tags.map((tag)=>(
