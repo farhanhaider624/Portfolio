@@ -10,6 +10,7 @@ import complaintSystem from "../images/complaintSystem.png";
 import resumeBuilder from "../images/resumeBuilder.png";
 import portfolio from "../images/portfolio.png";
 import quizzyquest from "../images/quizzyquest.png";
+import walmart from "../images/walmart.png";
 
 export const Bio = {
   name: "Farhan Haider",
@@ -18,7 +19,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/farhanhaider624",
   resume:
-    "https://drive.google.com/file/d/1HiTUaPn7X-rhwYlXGxIz6xjijiQEe3Lt/view?usp=sharing",
+    "https://drive.google.com/file/d/15zQ_RXaJA2UOwab8udEa7zrhwZNhN9KR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/farhan-haider-1268a222a/",
   insta: "https://www.instagram.com/its.fhk/",
   facebook:
@@ -123,6 +124,22 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: walmart,
+    role: "Advanced Software Engineering Job Simulation",
+    company: "Walmart Global Tech",
+    date: "July 2024 - Aug 2024",
+    // desc: "Built a Todo App ",
+    skills: [
+      "Data Structures",
+      "Java",
+      "Realtional Database Design",
+      "SQL",
+      "UML",
+      "Software Architecture",
+    ],
+  },
+  {
+    id: 0,
     img: OASIS,
     role: "Web Development & Design Intern",
     company: "Oasis Infobyte",
@@ -186,7 +203,16 @@ export const projects = [
     description:
       "This project is a full-featured Quiz Portal inspired by the real-world application, this project offers a robust and scalable solution for online quiz management.",
     image: quizzyquest,
-    tags: ["React Js", "Node Js", "Express Js", "HTML", "CSS", "Javascript"],
+    tags: [
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Redux Toolkit",
+      "HTML",
+      "CSS",
+      "Javascript",
+    ],
     category: "web app",
     github: "https://github.com/farhanhaider624/QuizPortal",
     // webapp: "https://web-prog-proj.netlify.app/",
