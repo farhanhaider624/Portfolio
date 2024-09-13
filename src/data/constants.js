@@ -9,6 +9,7 @@ import weatherApp from "../images/weatherApp.png";
 import complaintSystem from "../images/complaintSystem.png";
 import resumeBuilder from "../images/resumeBuilder.png";
 import portfolio from "../images/portfolio.png";
+import quizzyquest from "../images/quizzyquest.png";
 
 export const Bio = {
   name: "Farhan Haider",
@@ -152,7 +153,7 @@ export const education = [
     img: IIITA,
     school: "Indian Institute of Information Technology, Allahabad",
     date: "July 2021 - Jun 2025",
-    grade: "7.61 CGPA (till 5th semester)",
+    grade: "7.68 CGPA (till 6th semester)",
     desc: "I am currently pursuing a Bachelor's degree in Electronics & Commuincation Engineering at Indian Institute of Information Technology, Allahabad. I have completed 5 semesters and have a CGPA of 7.61. I have taken courses in Data Structures, Algorithms, Operating Systems, and Computer Networks, among others.",
     degree:
       "Bachelor of Technology - BTech, Electronics & Commuincation Engineering",
@@ -180,16 +181,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Complaint System",
-    date: "Dec 2023",
+    title: "Quizzy Quest",
+    date: "July 2024",
     description:
-      "It is a web application for complaining about the issues with related to the respective college departments.",
-    image: complaintSystem,
+      "This project is a full-featured Quiz Portal inspired by the real-world application, this project offers a robust and scalable solution for online quiz management.",
+    image: quizzyquest,
     tags: ["React Js", "Node Js", "Express Js", "HTML", "CSS", "Javascript"],
     category: "web app",
-    github: "https://github.com/farhanhaider624/complaint-system",
-    webapp: "https://web-prog-proj.netlify.app/",
+    github: "https://github.com/farhanhaider624/QuizPortal",
+    // webapp: "https://web-prog-proj.netlify.app/",
   },
+  // {
+  //   id: 0,
+  //   title: "Complaint System",
+  //   date: "Dec 2023",
+  //   description:
+  //     "It is a web application for complaining about the issues with related to the respective college departments.",
+  //   image: complaintSystem,
+  //   tags: ["React Js", "Node Js", "Express Js", "HTML", "CSS", "Javascript"],
+  //   category: "web app",
+  //   github: "https://github.com/farhanhaider624/complaint-system",
+  //   webapp: "https://web-prog-proj.netlify.app/",
+  // },
   {
     id: 1,
     title: "Resume Builder",
