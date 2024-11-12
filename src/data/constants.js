@@ -11,6 +11,8 @@ import resumeBuilder from "../images/resumeBuilder.png";
 import portfolio from "../images/portfolio.png";
 import quizzyquest from "../images/quizzyquest.png";
 import walmart from "../images/walmart.png";
+import hostayD from "../images/hostayD.JPG";
+import LivoCare from "../images/LivoCare.JPG";
 
 export const Bio = {
   name: "Farhan Haider",
@@ -19,7 +21,9 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/farhanhaider624",
   resume:
-    "https://drive.google.com/file/d/15zQ_RXaJA2UOwab8udEa7zrhwZNhN9KR/view?usp=sharing",
+    "https://drive.google.com/file/d/1YE_31iuWS6nR031dCDXUawl3UjQ6AQbV/view?usp=drive_link",
+  // resume:
+  //   "https://drive.google.com/file/d/15zQ_RXaJA2UOwab8udEa7zrhwZNhN9KR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/farhan-haider-1268a222a/",
   insta: "https://www.instagram.com/its.fhk/",
   facebook:
@@ -282,5 +286,27 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/farhanhaider624/Todo-App",
+  },
+  {
+    id: 5,
+    title: "LivoCare",
+    date: "Dec 2022",
+    description:
+      "This App's UI flow is well-aligned with the problem statement, addressing the needs of elderly users who require simplified access to healthcare services.",
+    image: LivoCare,
+    tags: ["Figma", "Dribble"],
+    category: "ui/ux",
+    github: "https://github.com/farhanhaider624/LivoCare",
+  },
+  {
+    id: 6,
+    title: "HostayD",
+    date: "Dec 2021",
+    description:
+      "The app's UI solves the problem of individuals experiencing loneliness and depression, complex or overwhelming interfaces can exacerbate feelings of frustration or isolation. This app's UI, with its calming design and straightforward layout, reduces stress and confusion, making mental health resources approachable and easy to use. It encourages consistent use by providing an inviting experience that motivates users to participate in wellness activities, track their emotions, and engage with supportive communities. This design helps foster a sense of companionship, empowerment, and emotional relief, directly addressing the needs of users who spend significant time alone and may struggle with maintaining their mental well-being.",
+    image: hostayD,
+    tags: ["Figma", "Dribble"],
+    category: "ui/ux",
+    github: "https://github.com/farhanhaider624/HostayD",
   },
 ];

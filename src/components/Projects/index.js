@@ -11,7 +11,7 @@ background:linear-gradient(
 );
 display: flex;
 flex-direction: column;
-justify-content-center;
+justify-content:center;
 position: relative;
 z-index: 1;
 align-items: center;
@@ -128,16 +128,24 @@ const Projects = () => {
               WEB APP'S
             </ToggleButton>
           )}
+          <Divider />
+          {toggle === "ui/ux" ? (
+            <ToggleButton active onClick={() => setToggle("ui/ux")}>
+              UI/UX
+            </ToggleButton>
+          ) : (
+            <ToggleButton onClick={() => setToggle("ui/ux")}>
+              UI/UX
+            </ToggleButton>
+          )}
         </ToggleGroup>
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project, index) => (
-                <Projectcard project={project} />
-            ))}
+            projects.map((project, index) => <Projectcard project={project} />)}
           {projects
             .filter((item) => item.category === toggle)
             .map((project, index) => (
-                <Projectcard project={project} />
+              <Projectcard project={project} />
             ))}
         </CardContainer>
       </Wrapper>
