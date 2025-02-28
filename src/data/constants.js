@@ -13,15 +13,17 @@ import quizzyquest from "../images/quizzyquest.png";
 import walmart from "../images/walmart.png";
 import hostayD from "../images/hostayD.JPG";
 import LivoCare from "../images/LivoCare.JPG";
+import fi from "../images/fi.png"
+import medanjali from "../images/medanjali.jpg"
 
 export const Bio = {
   name: "Farhan Haider",
-  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
+  roles: ["Software Engineer", "UI/UX Designer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/farhanhaider624",
   resume:
-    "https://drive.google.com/file/d/1YE_31iuWS6nR031dCDXUawl3UjQ6AQbV/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Z7VydORlnXCRqrvMUsjF5M4V15ptqNNP/view?usp=drive_link",
   // resume:
   //   "https://drive.google.com/file/d/15zQ_RXaJA2UOwab8udEa7zrhwZNhN9KR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/farhan-haider-1268a222a/",
@@ -128,40 +130,56 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: fi,
+    role: "Software Engineer Intern",
+    company: "Fi Money",
+    date: "January 2025 - July 2025",
+    // desc: "Built a Todo App ",
+    skills: [
+      " Scala",
+      " Python",
+      " Spark",
+      " SQL",
+      " Airflow",
+      " Go",
+    ],
+  },
+  {
+    id: 1,
     img: walmart,
     role: "Advanced Software Engineering Job Simulation",
     company: "Walmart Global Tech",
     date: "July 2024 - Aug 2024",
     // desc: "Built a Todo App ",
     skills: [
-      "Data Structures",
-      "Java",
-      "Realtional Database Design",
-      "SQL",
-      "UML",
-      "Software Architecture",
+      " Data Structures",
+      " Java",
+      " Realtional Database Design",
+      " SQL",
+      " UML",
+      " Software Architecture",
     ],
   },
   {
-    id: 0,
-    img: OASIS,
-    role: "Web Development & Design Intern",
-    company: "Oasis Infobyte",
+    id: 2,
+    img: medanjali,
+    role: "Web Development Intern",
+    company: "Medanjali",
     date: "Jan 2024 - Feb 2024",
     // desc: "Built a Todo App ",
     skills: [
-      "JavaScript",
-      "React Js",
-      "Express Js",
-      "TypeScript",
-      "Node Js",
-      "MongoDB",
+      " JavaScript",
+      " React Js",
+      " Express Js",
+      " TypeScript",
+      " Node Js",
+      " MongoDB",
     ],
   },
   {
-    id: 1,
+    id: 3,
     img: APK,
-    role: "Open Source Contributor ",
+    role: "Open Source Contributor",
     company: "APK-Month-22",
     date: "May 2023 - Present",
     desc: "Contributed to different open-source projects conducted in APK-Month 2022 During Technical Fest of our college.",
@@ -174,7 +192,7 @@ export const education = [
     img: IIITA,
     school: "Indian Institute of Information Technology, Allahabad",
     date: "July 2021 - Jun 2025",
-    grade: "7.68 CGPA (till 6th semester)",
+    grade: "8.21 CGPA (ongoing)",
     desc: "I am currently pursuing a Bachelor's degree in Electronics & Commuincation Engineering at Indian Institute of Information Technology, Allahabad. I have completed 5 semesters and have a CGPA of 7.61. I have taken courses in Data Structures, Algorithms, Operating Systems, and Computer Networks, among others.",
     degree:
       "Bachelor of Technology - BTech, Electronics & Commuincation Engineering",
@@ -200,8 +218,29 @@ export const education = [
 ];
 
 export const projects = [
+  // {
+  //   id: 0,
+  //   title: "ChatBuzz",
+  //   date: "July 2024",
+  //   description:
+  //     "This project is a full-featured Quiz Portal inspired by the real-world application, this project offers a robust and scalable solution for online quiz management.",
+  //   image: quizzyquest,
+  //   tags: [
+  //     "React Js",
+  //     "Node Js",
+  //     "Express Js",
+  //     "MongoDB",
+  //     "Redux Toolkit",
+  //     "HTML",
+  //     "CSS",
+  //     "Javascript",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/farhanhaider624/ChatBuzz",
+  //   // webapp: "https://web-prog-proj.netlify.app/",
+  // },
   {
-    id: 0,
+    id: 1,
     title: "Quizzy Quest",
     date: "July 2024",
     description:
@@ -234,7 +273,7 @@ export const projects = [
   //   webapp: "https://web-prog-proj.netlify.app/",
   // },
   {
-    id: 1,
+    id: 2,
     title: "Resume Builder",
     date: "March 2024",
     description:
@@ -246,7 +285,7 @@ export const projects = [
     webapp: "https://resume-builder1.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Portfolio Website",
     date: "Feb 2024",
     description:
@@ -258,7 +297,7 @@ export const projects = [
     webapp: "https://my-portfolio-fhde.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather App",
     date: " 2023",
     description:
@@ -270,7 +309,7 @@ export const projects = [
     webapp: "https://weather-app3-pgtd.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo Web App",
     date: "Jan 2024",
     description:
@@ -288,7 +327,7 @@ export const projects = [
     github: "https://github.com/farhanhaider624/Todo-App",
   },
   {
-    id: 5,
+    id: 6,
     title: "LivoCare",
     date: "Dec 2022",
     description:
@@ -299,7 +338,7 @@ export const projects = [
     github: "https://github.com/farhanhaider624/LivoCare",
   },
   {
-    id: 6,
+    id: 7,
     title: "HostayD",
     date: "Dec 2021",
     description:
