@@ -87,6 +87,24 @@ export const skills = [
     ],
   },
   {
+    title: "Data",
+    skills: [
+      {
+        name: "Spark",
+        image: "https://spark.apache.org/images/spark-logo-trademark.png",
+      },
+      {
+        name: "Snowflake",
+        image:
+          "https://cdn.brandfetch.io/idJz-fGD_q/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B",
+      },
+      {
+        name: "Superset",
+        image: "https://images.seeklogo.com/logo-png/50/1/superset-icon-logo-png_seeklogo-500354.png"
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
